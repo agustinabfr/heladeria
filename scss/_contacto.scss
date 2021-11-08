@@ -1,0 +1,44 @@
+.centrar {
+    justify-content: center;
+}
+
+form {
+    text-align: left;
+    padding: 10px 50px;
+}
+
+.formulario__titulo {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+textarea {
+    display: block;
+    margin-top: 10px;
+}
+
+.enviar {
+    display: block;
+    margin-top: 10px;
+}
+
+.checkBox {
+    word-spacing: 3px;
+}
+
+.mensaje {
+    word-spacing: 10px;
+}
+
+.formu:focus {
+    background-color: rgb(235, 222, 166);
+}
+
+.boton {
+    margin: 5px;
+}
+.contColor{
+    background-color: rgb(238, 226, 118);
+    
+}

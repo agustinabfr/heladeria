@@ -1,0 +1,38 @@
+.formulario {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#cDatos {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    width: 280px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.sinBorde {
+    border: none;
+    text-align: left;
+}
+
+.pedi:hover {
+    transform: skew(10deg)
+}
+
+.pya:hover {
+    transform: skew(10deg)
+}
+
+.mapa {
+    transition: all 2s;
+}
+
+.mapa:hover {
+    transform: scale(2, 2)
+}
+.asP{
+    background-color: none !important;
+}

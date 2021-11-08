@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 62, 5;
+}
+
+body {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Glory', sans-serif;
+    background-size: cover;
+}
+
+.letra {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Glory', sans-serif;
+    background-size: cover;
+}
+
+
+.img {
+    margin: 20px;
+}
+.grande:hover {
+    transform: scale(2, 2)
+}
+
+/*encabezado*/
+header {
+    display:flex;
+    background-color: black;
+    word-spacing: 30px;
+    position: sticky ;
+    top: 0;
+    height: 140px;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: black !important;
+    word-spacing: 30px !important;
+}
+
+#colorNav {
+    color: #EFF2B9 !important;
+    align-items: center;
+
+
+&:hover {
+    color: rgb(226, 226, 97) !important;
+    
+}
+}
+
+#logo:hover {
+    transform: translatey(5px);
+    
+}
+
+.pedido {
+    word-spacing: 0px;
+}
+
+.logo:hover {
+
+    transform: translatey(5px)
+}
+
+li {
+    a {
+    text-decoration: none;
+    color: #EFF2B9;
+    font-size: 20px;
+
+
+&:hover {
+    color: rgb(226, 226, 97);
+}
+}
+}
+
+/*---cuerpo----*/
+
+main {
+    background-color: #EFF2B9;
+    padding: 20px 50px;
+
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+}
+
+h3 {
+    color: black
+}
+
+.opcionForm {
+    color: black;
+}
+
+section {
+    background-color: #EFF2B9;
+}
+
+.aside1 {
+    
+    background-color: #edf191;
+    color: black;
+    height: 90px;
+    margin: 2% 4%; 
+}
+
+.pya {
+    margin-bottom: 10px;
+}
+
+.pya2 {
+    margin-bottom: 5px;
+
+
+&:hover {
+    transform: scale(2, 2)
+}
+}
+footer {
+    text-align: left;
+    font-size: 20px;
+    color: #EFF2B9;
+    background-color: black;
+    height: 100px;
+    padding: 20px 50px;
+    bottom: 0;
+}
+
+.ig {
+    word-spacing: 5px;
+}

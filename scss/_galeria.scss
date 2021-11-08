@@ -1,0 +1,65 @@
+@media only screen and (min-width:780px) {
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+    
+        margin: 30px 200px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        grid-template-areas:
+            "uno dos tres"
+            "cin six sep"
+    }
+    }
+
+    @media only screen and (max-width:320px) {
+        .galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+            margin: 30px 30px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        grid-template-areas:
+            "uno"
+            "dos"
+            "tres"
+            "cin"
+            "six"
+            "sep"
+    }
+    .cua{
+        width: 250px !important;
+    }
+    }
+    .uno {
+        grid-area: uno
+    }
+    
+    .dos {
+        grid-area: dos
+    }
+    
+    .tres {
+        grid-area: tres
+    }
+    
+    .cua {
+        grid-area: cua;
+    
+    }
+    
+    .cin {
+        grid-area: cin
+    }
+    
+    .six {
+        grid-area: six
+    }
+    
+    .sep {
+        grid-area: sep
+    }
+    

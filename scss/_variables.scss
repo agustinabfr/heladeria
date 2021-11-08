@@ -1,0 +1,13 @@
+$fiesta: none;
+
+header{
+    @if $fiesta == navidad{
+        background-color: rgb(216, 52, 52);
+    }
+    @else if $fiesta == newYear{
+        background-color: rgb(241, 241, 45);
+    }
+    @else {
+        background-color: black;
+    }
+}

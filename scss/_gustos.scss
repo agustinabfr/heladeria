@@ -1,0 +1,140 @@
+
+.letra {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Glory', sans-serif;
+    background-size: cover;
+}
+
+.img {
+    margin: 20px;
+}
+.grande:hover {
+    transform: scale(2, 2)
+}
+.gustos {
+    
+    background-color: rgb(233, 202, 101);
+    color: white;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+   
+}
+@media only screen and (min-width:780px){
+    
+#crema{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap:0rem;
+    grid-row-gap: 0px;
+    grid-template-areas:
+    "gU gD gT"
+    "gC gCi gS";
+    height: 800px;
+}
+}
+
+@media only screen and (max-width:320px){
+    
+    #crema{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap:0rem;
+        grid-row-gap: 0px;
+        grid-template-areas:
+        "gU"
+        "gD"
+        "gT"
+        "gC" 
+        "gCi" 
+        "gS";
+        height: 800px;
+    }
+    }
+.card{
+    background-color: rgb(240, 227, 116);
+    display: block;
+    width: 20rem !important;
+   
+}
+
+.gU{
+    grid-area: gU;
+}
+.gD{
+    grid-area: gD;
+}
+.gT{
+    grid-area: gT;
+}
+.gC{
+    grid-area: gC;
+}
+.gCi{
+    grid-area: gCi;
+}
+.gS{
+    grid-area: gS;
+}
+.gustos{
+    grid-area: nU;
+}
+@media only screen and (min-width:780px){
+#choco{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap:0rem;
+    grid-row-gap: 0px;
+    grid-template-areas:
+    "gSi gO gN"
+    "gD gOn gDo";
+}
+}
+@media only screen and (max-width:320px){
+    #choco{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap:0rem;
+        grid-row-gap: 0px;
+        grid-template-areas:
+        "gSi"
+        "gO"
+        "gN"
+        "gD"
+        "gOn"
+        "gDo";
+    }
+    }
+.gSi{
+    grid-area: gSi;
+}
+.gO{
+    grid-area: gO;
+}
+.gN{
+    grid-area: gN;
+}
+.gD{
+    grid-area: gD;
+}
+.gOn{
+    grid-area: gOn;
+}
+.gDo{
+    grid-area: Do;
+}
+.gustos{
+    grid-area: nU;
+}
+.divch{
+    margin-top: 0px;
+}
+.divcre{
+    margin-bottom: 0px;
+}
