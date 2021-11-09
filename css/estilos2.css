@@ -25,8 +25,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 0rem;
     grid-row-gap: 0px;
-    grid-template-areas: "gU gD gT"
- "gC gCi gS";
+    grid-template-areas: "gU gD gT" "gC gCi gS";
     height: 800px; } }
 
 @media only screen and (max-width: 320px) {
@@ -36,12 +35,7 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0rem;
     grid-row-gap: 0px;
-    grid-template-areas: "gU"
- "gD"
- "gT"
- "gC" 
- "gCi" 
- "gS";
+    grid-template-areas: "gU" "gD" "gT" "gC"  "gCi"  "gS";
     height: 800px; } }
 
 .card {
@@ -77,8 +71,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 0rem;
     grid-row-gap: 0px;
-    grid-template-areas: "gSi gO gN"
- "gD gOn gDo"; } }
+    grid-template-areas: "gSi gO gN" "gD gOn gDo"; } }
 
 @media only screen and (max-width: 320px) {
   #choco {
@@ -87,12 +80,7 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0rem;
     grid-row-gap: 0px;
-    grid-template-areas: "gSi"
- "gO"
- "gN"
- "gD"
- "gOn"
- "gDo"; } }
+    grid-template-areas: "gSi" "gO" "gN" "gD" "gOn" "gDo"; } }
 
 .gSi {
   grid-area: gSi; }
@@ -223,8 +211,7 @@ section {
 .aside1 {
   background-color: #edf191;
   color: black;
-  height: 90px;
-  margin: 2% 4%; }
+  height: 100%; }
 
 .pya {
   margin-bottom: 10px; }
@@ -328,8 +315,7 @@ fieldset {
     margin: 30px 200px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    grid-template-areas: "uno dos tres"
- "cin six sep"; } }
+    grid-template-areas: "uno dos tres" "cin six sep"; } }
 
 @media only screen and (max-width: 320px) {
   .galeria {
@@ -339,12 +325,7 @@ fieldset {
     margin: 30px 30px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    grid-template-areas: "uno"
- "dos"
- "tres"
- "cin"
- "six"
- "sep"; }
+    grid-template-areas: "uno" "dos" "tres" "cin" "six" "sep"; }
   .cua {
     width: 250px !important; } }
 
@@ -371,5 +352,3 @@ fieldset {
 
 header {
   background-color: black; }
-
-  
