@@ -1,21 +1,36 @@
-.formulario {
-    padding-left: 200px;
-    padding-right: 200px;
-}
 
-#cDatos {
-    margin-bottom: 10px;
-}
+@media only screen and (max-width:320px){
+        .logoCH{
+                width: 80%;
+                 height: 30%;
+            }
+        .mapa{
+            width: 80%;
+            height: 30%;
+    
+        }
+            
 
-fieldset {
-    width: 280px;
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-}
 
-.sinBorde {
-    border: none;
-    text-align: left;
+    }
+
+    @media only screen and (max-width:615px){
+        .logoCH{
+                width: 80%;
+                height: 30%;
+            }
+        .mapa{
+            width: 80%;
+            height: 30%;
+
+        }
+        
+    }
+
+
+.logos {
+     padding:  10px;
+     display: block;
 }
 
 .pedi:hover {
@@ -28,11 +43,13 @@ fieldset {
 
 .mapa {
     transition: all 2s;
+    margin: 30px;
 }
 
 .mapa:hover {
     transform: scale(2, 2)
 }
-.asP{
-    background-color: none !important;
+
+.mapaM{
+    margin-top: 20px;
 }

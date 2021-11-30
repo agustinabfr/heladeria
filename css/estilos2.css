@@ -260,7 +260,8 @@ textarea {
   word-spacing: 10px; }
 
 .formu:focus {
-  background-color: #ebdea6; }
+  background-color: #ebdea6;
+  background-image: url("conno.png"); }
 
 .boton {
   margin: 5px; }
@@ -268,29 +269,35 @@ textarea {
 .contColor {
   background-color: #eee276; }
 
-.menuPrecio__tabla {
-  color: black;
-  margin: 2% 40% 2% 40%;
-  background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%); }
+@media only screen and (min-width: 700px) {
+  textarea {
+    margin-top: 10px;
+    width: 355px;
+    height: 300px; } }
 
-.valido {
-  color: brown; }
+.float {
+  display: inline;
+  float: right; }
 
-.formulario {
-  padding-left: 200px;
-  padding-right: 200px; }
+@media only screen and (max-width: 320px) {
+  .logoCH {
+    width: 80%;
+    height: 30%; }
+  .mapa {
+    width: 80%;
+    height: 30%; } }
 
-#cDatos {
-  margin-bottom: 10px; }
+@media only screen and (max-width: 615px) {
+  .logoCH {
+    width: 80%;
+    height: 30%; }
+  .mapa {
+    width: 80%;
+    height: 30%; } }
 
-fieldset {
-  width: 280px;
-  text-align: center;
-  padding: 10px 0px 10px 0px; }
-
-.sinBorde {
-  border: none;
-  text-align: left; }
+.logos {
+  padding: 10px;
+  display: block; }
 
 .pedi:hover {
   transform: skew(10deg); }
@@ -299,13 +306,14 @@ fieldset {
   transform: skew(10deg); }
 
 .mapa {
-  transition: all 2s; }
+  transition: all 2s;
+  margin: 30px; }
 
 .mapa:hover {
   transform: scale(2, 2); }
 
-.asP {
-  background-color: none !important; }
+.mapaM {
+  margin-top: 20px; }
 
 @media only screen and (min-width: 780px) {
   .galeria {
