@@ -161,6 +161,11 @@ header {
   height: 140px;
   justify-content: center; }
 
+@media only screen and (max-width: 320px) {
+  #logo {
+    width: 65px;
+    height: 50px; } }
+
 .navbar {
   background-color: black !important;
   word-spacing: 30px !important; }
@@ -193,7 +198,8 @@ main {
   padding: 20px 50px; }
 
 h1 {
-  color: black; }
+  color: black;
+  margin-top: 20px; }
 
 h2 {
   color: black;
@@ -231,7 +237,8 @@ footer {
   bottom: 0; }
 
 .ig {
-  word-spacing: 5px; }
+  word-spacing: 5px;
+  text-decoration: none; }
 
 .centrar {
   justify-content: center; }
@@ -260,8 +267,7 @@ textarea {
   word-spacing: 10px; }
 
 .formu:focus {
-  background-color: #ebdea6;
-  background-image: url("conno.png"); }
+  background-color: #ebdea6; }
 
 .boton {
   margin: 5px; }
@@ -274,10 +280,6 @@ textarea {
     margin-top: 10px;
     width: 355px;
     height: 300px; } }
-
-.float {
-  display: inline;
-  float: right; }
 
 @media only screen and (max-width: 320px) {
   .logoCH {
